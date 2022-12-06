@@ -1,0 +1,45 @@
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.explore{
+    background-color: #f1f1f1;
+}
+
+.btn-explore{
+    height: 8%;
+}
+
+.btn-explore>form>button{
+    background-color: #d14848;
+    border-radius: 15px;
+    color: white;
+    margin: 15px;
+}
+
+.logo{
+    height: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>img{
+    height: 380px;
+    width: 382px;
+}
+
+
+.form{
+    background-color: #d14848;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.form-childer{
+    height: 50%;
+    width: 50%;
+}
